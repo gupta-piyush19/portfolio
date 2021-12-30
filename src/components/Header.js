@@ -5,7 +5,7 @@ import { navLinks, author } from "../config";
 const Header = () => {
   const { menu } = navLinks;
   return (
-    <nav className="w-4/5 m-auto p-4 sticky top-0 bg-white shadow-md">
+    <nav className="w-4/5 m-auto p-4 sticky top-0 bg-white shadow-md mb-4">
       <div className="container flex flex-row justify-between items-center">
         <div className="title text-2xl font-bold ">
           <Link to="/">{author}</Link>
