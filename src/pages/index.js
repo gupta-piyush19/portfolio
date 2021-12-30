@@ -1,7 +1,15 @@
-import * as React from "react";
+import React from "react";
+import Layout from "../components/Layout";
+import About from "../components/About";
+import Experience from "../components/Experience";
 
-const IndexPage = () => {
-  return <></>;
+export default () => {
+  return (
+    <Layout>
+      <main className="w-3/5 m-auto">
+        <About />
+        <Experience />
+      </main>
+    </Layout>
+  );
 };
-
-export default IndexPage;
