@@ -4,7 +4,7 @@ import Capsule from "./Capsule";
 const ExperienceCard = ({ exp }) => {
   const { place, designation, duration, description } = exp;
   return (
-    <div className="shadow-md rounded-md p-4 mb-4">
+    <div className="shadow-md rounded-md p-4 pt-6 pb-6 mb-4">
       <div className="flex items-start justify-between mb-2">
         <div>
           <div>

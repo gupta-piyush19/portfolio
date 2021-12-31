@@ -106,12 +106,20 @@ module.exports = {
         "Draft.js",
         "Heroku",
       ],
+      links: {
+        GitHub: "https://github.com/gupta-piyush19/Blogic",
+        Live: "https://blogic-app.herokuapp.com/",
+      },
     },
     {
       title: "Find Your Bank",
       description:
         "Find Your Bank is an application that can be used to find the list of all the banks in a particular place in India. Users can also fetch details of a single bank from its IFSC Code.",
       "Tech stack": ["Next.js", "Tailwind CSS", "react-table", "Vercel"],
+      links: {
+        GitHub: "https://github.com/gupta-piyush19/find-your-bank",
+        Live: "https://find-your-bank.vercel.app/",
+      },
     },
   ],
 };
