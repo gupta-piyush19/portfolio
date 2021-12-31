@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "gatsby";
 const Footer = () => {
   return (
-    <div className="footer text-xl m-auto w-4/5 p-4 tracking-wide flex items-center justify-center gap-2">
+    <div className="footer text-xl m-auto w-4/5 p-4 tracking-wide flex items-center justify-center gap-2 mt-6">
       Made with{" "}
       <Link to="https://www.gatsbyjs.com/">
         <img
           className="inline-block h-6"
           src="https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg"
+          alt="Gatsby Icon"
         />
       </Link>{" "}
       and{" "}
@@ -15,6 +16,7 @@ const Footer = () => {
         <img
           className="inline-block h-6"
           src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+          alt="Tailwind CSS Icon"
         />
       </Link>
     </div>

@@ -54,6 +54,31 @@ module.exports = {
       url: "/#contact",
     },
   },
+  skillObj: {
+    "Programming Languages": ["JavaScript", "C++", "C", "Python", "PHP"],
+    "Web Technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "Gatsby",
+      "Node.js",
+      "Express.js",
+      "Fastify",
+      "SASS",
+      "Rest API",
+    ],
+    "Databases & Tools": [
+      "MySQL",
+      "MongoDB",
+      "Git",
+      "GitHub",
+      "GraphQL",
+      "Fastify",
+      "Wordpress",
+    ],
+  },
   experience: [
     {
       place: "1854 Media",
@@ -71,6 +96,22 @@ module.exports = {
   projects: [
     {
       title: "Blogic",
+      description:
+        "Blogic is a full stack web application to read and write blogs. It has a fully featured rich text editor built on Draft.js.",
+      "Tech stack": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "Draft.js",
+        "Heroku",
+      ],
+    },
+    {
+      title: "Find Your Bank",
+      description:
+        "Find Your Bank is an application that can be used to find the list of all the banks in a particular place in India. Users can also fetch details of a single bank from its IFSC Code.",
+      "Tech stack": ["Next.js", "Tailwind CSS", "react-table", "Vercel"],
     },
   ],
 };

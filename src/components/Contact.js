@@ -1,7 +1,6 @@
 import React from "react";
 import Title from "./Title";
 import { socialMedia } from "../config";
-import { Link } from "gatsby";
 
 const Contact = () => {
   return (
@@ -20,6 +19,7 @@ const Contact = () => {
               <img
                 src={site.icon}
                 className="h-14 inline shadow-lg border-2 border-red-100 grayscale hover:grayscale-0 transition-all duration-300 p-1 hover:scale-125"
+                alt={site.name}
               />
             </a>
           </span>
