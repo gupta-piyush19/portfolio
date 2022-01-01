@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div className="min-h-screen flex flex-col scroll-smooth font-primaryFont">
+    <div className="min-h-screen flex flex-col scroll-smooth font-primaryFont max-w-6xl m-auto">
       <Header />
       <main className="grow">{children}</main>
       <Footer />

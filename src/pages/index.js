@@ -8,12 +8,12 @@ import Projects from "../components/Projects";
 const App = () => {
   return (
     <Layout>
-      <main className="w-3/5 m-auto">
+      <div className="w-4/5 m-auto">
         <About />
         <Experience />
         <Skills />
         <Projects />
-      </main>
+      </div>
     </Layout>
   );
 };

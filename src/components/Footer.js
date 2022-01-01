@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 const Footer = () => {
   return (
-    <div className="footer text-xl m-auto w-4/5 p-4 tracking-wide flex items-center justify-center gap-2 mt-6">
+    <div className="footer text-xl m-auto w-full p-4 tracking-wide flex items-center justify-center gap-2 mt-6">
       Made with{" "}
       <Link to="https://www.gatsbyjs.com/">
         <img
