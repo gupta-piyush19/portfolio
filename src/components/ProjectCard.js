@@ -4,7 +4,7 @@ import Capsule from "./Capsule";
 const ProjectCard = ({ project }) => {
   const { title, description, "Tech stack": Techs, links } = project;
   return (
-    <div className="project-card shadow-lg">
+    <div className="project-card shadow-lg columns-md">
       <div>
         <div></div>
         <div>

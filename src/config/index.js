@@ -23,7 +23,7 @@ module.exports = {
     {
       name: "Gmail",
       url: "mailto:piyushguptaa2z123@gmail.com",
-      icon: "https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg",
+      icon: "https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg",
     },
   ],
   navLinks: {
@@ -44,10 +44,10 @@ module.exports = {
         name: "Projects",
         url: "/#projects",
       },
-      {
-        name: "Contact",
-        url: "/#contact",
-      },
+      // {
+      //   name: "Contact",
+      //   url: "/#contact",
+      // },
     ],
     button: {
       name: "Get In Touch",
