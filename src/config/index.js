@@ -102,7 +102,7 @@ module.exports = {
     {
       title: "Blogic",
       description:
-        "Blogic is a full stack web application to read and write blogs. It has a fully featured rich text editor built on Draft.js.",
+        "Blogic is a full stack web application to read and write blogs. It has a fully featured rich text editor built on Draft.js. Users can write write blogs on WYSIWYG Editor and also edit and delete them.",
       "Tech stack": [
         "MongoDB",
         "Express.js",

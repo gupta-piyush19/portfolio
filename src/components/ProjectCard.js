@@ -1,39 +1,41 @@
 import React from "react";
 import Capsule from "./Capsule";
-import Photo from "../images/blogic.png";
 
 const ProjectCard = ({ project }) => {
   const { title, description, "Tech stack": Techs, links } = project;
-  console.log(`../images/${title.split(" ").join("-").toLowerCase()}.png`);
   return (
-    <div className="project-card shadow-lg">
+    <div className="project-card shadow-lg rounded-xl overflow-hidden pb-2">
       <div>
         <div>
           <img
+            className=" hover:scale-110 transition-all duration-300 border-2 border-red-100"
             src={
               require(`../images/${title
                 .split(" ")
                 .join("-")
                 .toLowerCase()}.png`).default
             }
-            // src={Photo}
             alt={title}
           />
         </div>
-        <div>
+        <div className="px-5 py-2">
           <div>
-            <span>{title}</span>
+            <span className="text-2xl block text-center font-semibold mb-2">
+              {title}
+            </span>
           </div>
-          <div>
+          <div className="mb-3">
             <span>{description}</span>
           </div>
-          <div>
-            Tech Stack:{" "}
-            <div className="flex flex-wrap">
+          <div className="">
+            <span className="block text-center font-medium mb-2 underline underline-offset-2">
+              Tech Stack
+            </span>
+            <span className="flex flex-wrap gap-2">
               {Techs.map((tech, idx) => (
                 <Capsule key={idx} text={tech} />
               ))}
-            </div>
+            </span>
           </div>
         </div>
       </div>
