@@ -3,6 +3,11 @@ module.exports = {
   siteTitle: "Piyush Gupta - Portfolio",
   siteShortTitle: "PG",
   siteDescription: "Piyush is a software developer based in Ghaziabad",
+  profileTitle: "Hey there, I am Piyush gupta",
+  profileDescription: [
+    "I am a full stack web developer who loves building projects and experimenting new things. I am proficient in MERN stack and can create full stack web applications.",
+    "I am based in Ghaziabad, Uttar Pradesh. I'm currently pusruing B.Tech in CSE from MAIT, GGSIPU.",
+  ],
   siteLanguage: "en_IN",
   socialMedia: [
     {

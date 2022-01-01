@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div id="projects" className="projects scroll-mt-20">
       <Title title={"projects"} />
-      <div className="grid gap-20 grid-flow-col grid-cols-2 max-w-3xl">
+      <div className="grid gap-20  grid-cols-2 grid-flow-row-dense">
         {projects.map((project, idx) => (
           <ProjectCard key={idx} project={project} />
         ))}
