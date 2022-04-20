@@ -86,6 +86,19 @@ module.exports = {
   },
   experience: [
     {
+      place: "FastJobs.io",
+      designation: "Frontend Developer",
+      duration: "Jan 2022 - Apr 2022",
+      description: [
+        "Worked on Fastjobs.io from scratch to a production-ready app.",
+        "Converted Figma designs to responsive web pages.",
+        "Learnt and used SCSS to make pixel-perfect UI components.",
+        "Implemented react-query for data fetching and caching.",
+        "Implemented react-player for handling video interactions on the frontend.",
+        "Helped in configuring CI/CD for auto-deployment using GitHub workflows.",
+      ],
+    },
+    {
       place: "1854 Media",
       designation: "Consultant UI Developer",
       duration: "May 2021 - Sept 2021",
