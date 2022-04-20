@@ -4,12 +4,12 @@ import Capsule from "./Capsule";
 const ProjectCard = ({ project }) => {
   const { title, description, "Tech stack": Techs, links } = project;
   return (
-    <div className="flex project-card shadow-lg rounded-xl overflow-hidden">
+    <div className="flex project-card shadow-lg rounded-xl overflow-hidden flex-col lg:flex-row max-w-[340px] lg:max-w-none m-auto">
       <div className="group object-cover flex-[5] overflow-hidden relative">
         <img
           className={`group-hover:scale-110 transition-all duration-300 border-2 border-red-100 w-full h-full ${
             links["Live"] && "group-hover:opacity-30"
-          } block`}
+          } block `}
           src={
             require(`../images/${title.split(" ").join("-").toLowerCase()}.png`)
               .default

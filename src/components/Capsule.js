@@ -2,7 +2,9 @@ import React from "react";
 
 const Capsule = ({ text }) => {
   return (
-    <span className="rounded-full px-6 py-1 text-sm  bg-red-100">{text}</span>
+    <span className="rounded-2xl inline-block px-3 py-[2px] lg:px-6 lg:py-1 text-sm  bg-red-100">
+      {text}
+    </span>
   );
 };
 

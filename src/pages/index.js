@@ -8,7 +8,7 @@ import Projects from "../components/Projects";
 const App = () => {
   return (
     <Layout>
-      <div className="w-4/5 m-auto">
+      <div className="px-8 lg:w-4/5 m-auto">
         <About />
         <Experience />
         <Skills />

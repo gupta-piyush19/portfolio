@@ -6,11 +6,11 @@ const Header = () => {
   const { menu } = navLinks;
   return (
     <nav className="w-full m-auto p-4 sticky top-0 bg-white shadow-md z-10">
-      <div className="container flex flex-row justify-between items-center">
+      <div className=" flex flex-row justify-between items-center">
         <div className="title text-2xl font-bold ">
           <Link to="/">{author}</Link>
         </div>
-        <div className="links">
+        <div className="links hidden sm:block ">
           {menu.map(({ name, url }, key) => (
             <Link
               className="text-lg font-bold px-3 py-2 rounded hover:bg-red-100 "

@@ -8,8 +8,8 @@ const About = () => {
   return (
     <div id="about" className="about scroll-mt-20 ">
       <Title title={"about"} />
-      <div className="grid grid-flow-col gap-6 items-center">
-        <div className="profile-image h-56 w-56 left-0 rounded-full overflow-hidden object-cover">
+      <div className="grid md:grid-flow-col gap-6 items-center">
+        <div className="profile-image h-56 w-56 left-0 rounded-full overflow-hidden object-cover m-auto">
           <img src={Photu} alt="Piyush" className="w-full h-full" />
         </div>
         <div className="profile-info ">

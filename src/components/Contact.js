@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div id="contact" className="contact scroll-mt-20">
       <div className="text-xl mb-2">You can find me on</div>
-      <div className="contact-links flex gap-4 ">
+      <div className="contact-links flex gap-4 flex-wrap">
         {socialMedia.map((site, idx) => (
           <span key={idx} className="">
             <a
@@ -16,7 +16,7 @@ const Contact = () => {
             >
               <img
                 src={site.icon}
-                className="h-14 inline shadow-lg border-2 border-red-100 grayscale hover:grayscale-0 transition-all duration-300 p-1 hover:scale-125"
+                className="h-12 sm:h-14 inline shadow-lg border-2 border-red-100 grayscale hover:grayscale-0 transition-all duration-300 p-1 hover:scale-125"
                 alt={site.name}
               />
             </a>
